@@ -1,3 +1,4 @@
+import Footer from "../../core/footer/footer";
 import NavBar from "../../core/navbar/navbar";
 import Header from "./header/header";
 import styles from "./home.module.css";
@@ -9,6 +10,7 @@ const Home = () => {
       <NavBar />
       <Header />
       <ProductView />
+      <Footer/>
     </div>
   );
 };
