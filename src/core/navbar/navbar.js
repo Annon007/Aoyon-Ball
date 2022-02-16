@@ -15,7 +15,7 @@ const NavBar = (props) => {
         <img src={Logo} alt="ok" /> 
       </div>
       <div className={styles.navbarCenter}>
-        <a href="#!" onClick={handlePage}>Home</a>
+        <a href="/home" onClick={handlePage}>Home</a>
         <a href="#!">Product</a>
         <a href="#!">About Us</a>
         <a href="#!">Contact Us</a>
