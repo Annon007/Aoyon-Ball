@@ -1,10 +1,12 @@
 import "./App.css";
-import Home from "./components/home/home";
+import UserProvider from "./store/use-Provider";
+import Dashboard from "./components/Dashboard/Dashboard";
 const App = () => {
   return (
-    <div>
-      <Home />
-    </div>
+    <UserProvider>
+      <Dashboard/>
+      
+    </UserProvider>
   );
 };
 
